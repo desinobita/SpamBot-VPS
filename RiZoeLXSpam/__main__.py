@@ -22,7 +22,7 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-print("RiZoeL Bot Spam Successfully deployed -!")
+print("Your RiZoeL X Spam Bots Successfully Hosted -! \n")
 print("Enjoy! Do visit @RiZoeLX")
 
 if __name__ == "__main__":
