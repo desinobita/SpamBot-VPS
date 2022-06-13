@@ -24,13 +24,11 @@ RizX_Button = [
         Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DNHxHELL")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/MrRizoel/SpamBot")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/TheRiZoeL/SpamBot-VPS")
         ]
         ]
-        
-        
+                
 #USERS 
-
 
 @Riz.on(events.NewMessage(pattern="/start"))
 @Riz2.on(events.NewMessage(pattern="/start"))
