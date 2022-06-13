@@ -3,7 +3,7 @@ import asyncio
 import sys
 import git
 import heroku3
-from RiZoeLXSpam import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, rizoelversion
+from RiZoeLXSpam import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, OWNER_ID, SUDO_USERS, rizoelversion
 from RiZoeLXSpam import CMD_HNDLR as hl
 from telethon.tl.functions.users import GetFullUserRequest
 from RiZoeLXSpam import ALIVE_PIC
@@ -12,8 +12,7 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
-  
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg" 
 
 rizoel = "✯ 𝗥𝗶𝗭𝗼𝗲𝗟𝗫𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲 ✯\n\n"
 rizoel += f"═══════════════════\n"
@@ -44,7 +43,7 @@ async def alive(event):
         Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DNHxHELL")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/MrRizoel/SpamBot")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/TheRiZoeL/SpamBot-VPS")
         ]
         ]
         )
@@ -156,35 +155,19 @@ async def restart(e):
         quit()
         
 
-Heroku = heroku3.from_key(HEROKU_API_KEY)
-heroku_api = "https://api.heroku.com"
-sudousers = os.environ.get("SUDO_USER", None)
-
 @Riz.on(events.NewMessage(incoming=True, pattern=r"\%saddsudo(?: |$)(.*)" % hl))
 async def tb(event):
     if event.sender_id == OWNER_ID:
         ok = await event.reply("Adding user as a sudo...")
-        rizoel = "SUDO_USER"
-        if HEROKU_APP_NAME is not None:
-            app = Heroku.app(HEROKU_APP_NAME)
-        else:
-            await ok.edit("`[HEROKU]:" "\nPlease setup your` **HEROKU_APP_NAME**")
-            return
-        heroku_var = app.config()
         if event is None:
             return
         try:
             target = await get_user(event)
+            SUDO_USERS.append(target)
         except Exception:
             await ok.edit(f"Reply to a user.")
-        if sudousers:
-            newsudo = f"{sudousers} {target}"
-        else:
-            newsudo = f"{target}"
-        await ok.edit(f"**Added `{target}` ** as a sudo user 🔱 Restarting.. Please wait a minute...")
-        heroku_var[rizoel] = newsudo   
-   
-     
+        await ok.edit(f"**Added `{target}` ** as a sudo user 🔱")   
+      
 async def get_user(event):
     if event.reply_to_msg_id:
         previous_message = await event.get_reply_message()
