@@ -11,10 +11,10 @@
 
 <h3> Steps For Local Host (VPS host) </h3>
 
-- First Fork Repo and Edit [RiZoeLXSpam/__init__.py](https://github.com/TheRiZoeL/SpamBot-VPS/blob/370fa987f86827f1f1700843d593a29e2eb8ed97/RiZoeLXSpam/__init__.py) And Fill Values !
-<br>
-- Terminal cmds -!
-<br>
+<i> First Fork Repo and Edit [RiZoeLXSpam/__init__.py](https://github.com/TheRiZoeL/SpamBot-VPS/blob/370fa987f86827f1f1700843d593a29e2eb8ed97/RiZoeLXSpam/__init__.py) And Fill Values ! </i>
+
+ Terminal cmds -!
+
 - `git clone <your Forked repo>'
 - 'cd SpamBot-VPS' #If You Changed Repo Name Then Use that Name
 - 'pip3 install -r requirements.txt'
