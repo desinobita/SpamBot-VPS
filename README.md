@@ -5,24 +5,23 @@
   <b>ʀɪᴢᴏᴇʟ X sᴘᴀᴍ</b>
 </h1>
 
-[![Forks](https://img.shields.io/github/forks/MrRizoel/Spambot?style=flat-square&color=orange)](https://github.com/MrRizoel/Spambot/fork)
-[![Python](https://img.shields.io/badge/Python-v3.9.7-blue)](https://www.python.org/)
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/MrRizoel/Spambot)   
-----
- 
 - [x] ☯︎ ғᴀsᴛ ᴀɴᴅ sᴛᴀʙʟᴇ ☯︎
 - [x] Deploy 10 Bots in One time 🔥
 - [x] Deploy Using Bot Token 
 
-# Deploy on heroku
+<h3> Steps For Local Host (VPS host) </h3>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheRiZoeL/spambot-heroku)
+- First Fork Repo and Edit [RiZoeLXSpam/__init__.py](https://github.com/TheRiZoeL/SpamBot-VPS/blob/370fa987f86827f1f1700843d593a29e2eb8ed97/RiZoeLXSpam/__init__.py) And Fill Values !
+<br>
+- Terminal cmds -!
+<br>
+- `git clone <your Forked repo>'
+- 'cd SpamBot-VPS' #If You Changed Repo Name Then Use that Name
+- 'pip3 install -r requirements.txt'
+- 'python3 -m RiZoeLXSpam'
 
 
-# Support & Updates
+<h3> Support & Updates </he>
+
 * [Channel](https://t.me/RiZoeLX)
 * [Support Group](https://t.me/DNHcHELL)
-
-# Credits
-* [RiZoeL Creator](https://github.com/MrRizoel)
-* [Lonami](https://github.com/LonamiWebs/) for [Telethon.](https://github.com/LonamiWebs/Telethon)
