@@ -13,12 +13,12 @@
 
 <i> First Fork Repo and Edit [RiZoeLXSpam/__init__.py](https://github.com/TheRiZoeL/SpamBot-VPS/blob/370fa987f86827f1f1700843d593a29e2eb8ed97/RiZoeLXSpam/__init__.py) And Fill Values ! </i>
 
- Terminal cmds -!
+ <b> Terminal cmds -! </b>
 
-- `git clone <your Forked repo>'
-- 'cd SpamBot-VPS' #If You Changed Repo Name Then Use that Name
-- 'pip3 install -r requirements.txt'
-- 'python3 -m RiZoeLXSpam'
+- `git clone <your Forked repo>`
+- `cd SpamBot-VPS` #If You Changed Repo Name Then Use that Name
+- `pip3 install -r requirements.txt`
+- `python3 -m RiZoeLXSpam`
 
 
 <h3> Support & Updates </he>
