@@ -148,8 +148,8 @@ async def restart(e):
             await Riz10.disconnect()
         except Exception:
             pass
-
-        os.execl(sys.executable, sys.executable, *sys.argv)
+        args = [sys.executable, "-m", "RiZoeLXSpam"]
+        os.execl(sys.executable, *args)
         quit()
         
 
