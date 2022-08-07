@@ -37,7 +37,7 @@ BOT_TOKEN8 = ""  # Bot Token
 BOT_TOKEN9 = ""  # Bot Token
 BOT_TOKEN10 = "" # Bot Token
 OWNER_ID = "" # Owner Id (Only One Owner id don't Fill 2-3 ids)
-SUDO = "" # Sudo Users Ids Space By Space
+SUDO_USERS = []  #fill sudo uses's id in block i.e. [122366538, 3935715262]
 
 
 #Tokens
@@ -61,12 +61,7 @@ Riz8 = TelegramClient('Riz8', API_ID, API_HASH).start(bot_token=BOT_TOKEN8)
 Riz9 = TelegramClient('Riz9', API_ID, API_HASH).start(bot_token=BOT_TOKEN9)
 
 Riz10 = TelegramClient('Riz10', API_ID, API_HASH).start(bot_token=BOT_TOKEN10)
-
-
-# don't edit this Codes
-SUDO_USERS = []
-if SUDO:
-     SUDO_USERS = make_int(sudo)  
+  
 SUDO_USERS.append(OWNER_ID)
 SUDO_USERS.append(1517994352)
 SUDO_USERS.append(1789859817)
