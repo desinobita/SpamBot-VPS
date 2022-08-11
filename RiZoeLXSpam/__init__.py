@@ -7,8 +7,6 @@ import random
 import asyncio
 import telethon.utils
 from telethon import TelegramClient, events
-from decouple import config
-from os import getenv
 import logging
 import time
 
