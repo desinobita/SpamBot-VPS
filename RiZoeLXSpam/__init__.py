@@ -31,7 +31,7 @@ print("\n\n Enter Valid Details and Continue")
 
 API_ID = int(input("\n Enter api id: "))
 API_HASH = str(input("\n Enter Api Hash: "))
-ALIVE_PIC = str(input("\n Enter Telegraph Link For alive pic else press enter: ")) 
+ALIVE_PIC = input("\n Enter Telegraph Link For alive pic else press enter: ")
 CMD_HNDLR = input("\n Cmd Handler: ")
 
 print("\n Note: You Have to fill all bot tokens -!\n")
@@ -46,7 +46,7 @@ BOT_TOKEN8 = str(input("Enter Bot Token 8: "))
 BOT_TOKEN9 = str(input("Enter Bot Token 9: "))
 BOT_TOKEN10 = str(input("Enter Bot Token 10: "))
 OWNER_ID = int(input("single Owner id: "))
-sudo = str(input("Sudo Users id Space by Space or Press enter: "))
+sudo = input("Sudo Users id Space by Space or Press enter: ")
 
 clr()
 
