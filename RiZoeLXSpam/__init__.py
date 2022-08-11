@@ -50,6 +50,9 @@ BOT_TOKEN10 = str(input("Enter Bot Token 10: "))
 OWNER_ID = int(input("single Owner id: "))
 sudo = str(input("Sudo Users id Space by Space or Press enter: "))
 
+clr()
+
+Print("Staring Your RiZoeL X Spam")
 
 def make_int(str_input):
     str_list = str_input.split(" ")
