@@ -20,7 +20,7 @@ rizoelversion = "v2.0.3"
 
 # values
 
-ALIVE_PIC = str(alive)
+ALIVE_PIC = str(alivee)
 OWNER_ID = int(owner)
 CMD_HNDLR = hndlr
 
