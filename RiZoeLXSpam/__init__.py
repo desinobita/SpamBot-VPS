@@ -9,7 +9,7 @@ import telethon.utils
 from telethon import TelegramClient, events
 import logging
 import time
-# from main import API_ID, API_HASH, alivee, BOT_TOKEN, BOT_TOKEN2, BOT_TOKEN3, BOT_TOKEN4, BOT_TOKEN5, BOT_TOKEN6, BOT_TOKEN7, BOT_TOKEN8, BOT_TOKEN9, BOT_TOKEN10, sudo, owner, hndlr
+from main import API_ID, API_HASH, alivee, BOT_TOKEN, BOT_TOKEN2, BOT_TOKEN3, BOT_TOKEN4, BOT_TOKEN5, BOT_TOKEN6, BOT_TOKEN7, BOT_TOKEN8, BOT_TOKEN9, BOT_TOKEN10, sudo, owner, hndlr
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
@@ -20,22 +20,9 @@ rizoelversion = "v2.0.3"
 
 # values
 
-API_ID = ""
-API_HASH = ""
-ALIVE_PIC = ""
-OWNER_ID = ""
-CMD_HNDLR = ""
-BOT_TOKEN = ""
-BOT_TOKEN2 = ""
-BOT_TOKEN3 = ""
-BOT_TOKEN4 = ""
-BOT_TOKEN5 = ""
-BOT_TOKEN6 = ""
-BOT_TOKEN7 = ""
-BOT_TOKEN7 = ""
-BOT_TOKEN9 = ""
-BOT_TOKEN10 = ""
-SUDO = ""
+ALIVE_PIC = str(alive)
+OWNER_ID = int(owner)
+CMD_HNDLR = hndlr
 
 def make_int(str_input):
     str_list = str_input.split(" ")
@@ -45,7 +32,7 @@ def make_int(str_input):
     return int_list
 
 SUDO_USERS = []
-if SUDO:
+if sudo:
     SUDO_USERS = make_int(sudo)
 
 #Tokens
