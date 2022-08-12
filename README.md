@@ -14,7 +14,7 @@
  <b> Terminal cmds -! </b>
 
 - `git clone https://github.com/TheRiZoeL/SpamBot-VPS`
-- `cd SpamBot-VPS` 
+- `cd SpamBot-VPS` <br>
 Fill Your Values in RiZoeLXSpam/__init__.py
 - `pip3 install -r requirements.txt`
 - `python3 -m RiZoeLXSpam`
