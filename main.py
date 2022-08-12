@@ -31,5 +31,3 @@ sudo = input("Sudo Users id Space by Space or Press enter: ")
 clr()
 
 print("Staring Your RiZoeL X Spam")
-
-python3 -m RiZoeLXSpam
