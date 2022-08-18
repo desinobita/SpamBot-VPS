@@ -35,4 +35,4 @@ sudo = input("Sudo Users id Space by Space or Press enter: ")
 
 clr()
 
-print("<= Staring Your RiZoeL X Spam =>")
+# print("<= Staring Your RiZoeL X Spam =>")
