@@ -1,38 +1,25 @@
-import os
 
+# Enter Valid Details 
+# Fill values in "" E.g API_ID = "123566" 
 
+API_ID = ""
+API_HASH = ""
+alivee = ""
+hndlr = ""
 
-def clr():
-    if os.name == 'nt':
-        os.system('cls')
-    else:
-        os.system('clear')
+# Note: You Have to fill all bot tokens -!
 
+BOT_TOKEN = ""
+BOT_TOKEN2 = ""
+BOT_TOKEN3 = "" 
+BOT_TOKEN4 = ""
+BOT_TOKEN5 = ""
+BOT_TOKEN6 = ""
+BOT_TOKEN7 = ""
+BOT_TOKEN8 = ""
+BOT_TOKEN9 = ""
+BOT_TOKEN10 = ""
 
-print("\n Starting RiZoeL X Spam ....")
-clr()
-print(" • RiZoeL X Spam • ")
-print("\n\n Enter Valid Details and Continue")
+owner = "" #single Owner id
+sudo = "" #Sudo Users id Space by Space or leave it blank 
 
-API_ID = int(input("\n Enter api id: "))
-API_HASH = str(input("\n Enter Api Hash: "))
-alivee = input("\n Enter Telegraph Link For alive pic else press enter: ")
-hndlr = input("\n Cmd Handler: ")
-
-print("\n Note: You Have to fill all bot tokens -!\n")
-BOT_TOKEN = str(input("Enter Bot Token 1: "))
-BOT_TOKEN2 = str(input("Enter Bot Token 2: "))
-BOT_TOKEN3 = str(input("Enter Bot Token 3: "))
-BOT_TOKEN4 = str(input("Enter Bot Token 4: "))
-BOT_TOKEN5 = str(input("Enter Bot Token 5: "))
-BOT_TOKEN6 = str(input("Enter Bot Token 6: "))
-BOT_TOKEN7 = str(input("Enter Bot Token 7: "))
-BOT_TOKEN8 = str(input("Enter Bot Token 8: "))
-BOT_TOKEN9 = str(input("Enter Bot Token 9: "))
-BOT_TOKEN10 = str(input("Enter Bot Token 10: "))
-owner = int(input("single Owner id: "))
-sudo = input("Sudo Users id Space by Space or Press enter: ")
-
-clr()
-
-# print("<= Staring Your RiZoeL X Spam =>")
