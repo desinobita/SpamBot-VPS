@@ -16,6 +16,7 @@
 - `git clone https://github.com/TheRiZoeL/SpamBot-VPS`
 - `cd SpamBot-VPS`
 - `pip3 install -r requirements.txt`
+Fill your values in Values.py -!
 - `python3 -m RiZoeLXSpam`
 
 
